@@ -343,7 +343,7 @@ def main():
                             # Assuming the app runs on localhost:8501 for local testing
                             # In a production environment, this would be your domain (e.g., https://neolink.app)
                             # IMPORTANT: Replace 'your-deployed-domain.streamlit.app' with your actual Streamlit Cloud app URL
-                            shortened_url = f"https://your-deployed-domain.streamlit.app/?code={short_code}"
+                            shortened_url = f"https://https://shortened-url.streamlit.app/?code={short_code}"
                             
                             # Success animation
                             progress_bar = st.progress(0)
